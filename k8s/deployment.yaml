@@ -1,0 +1,14 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: timber-backpack
+spec:
+  replicas: 2
+  template:
+    spec:
+      containers:
+        - name: app
+          image: ghcr.io/jacksondprice/timber-backpack:1.4.0
+          envFrom:
+            - secretRef:
+                name: app-secrets
