@@ -1,0 +1,10 @@
+{
+  "type": "service_account",
+  "project_id": "timberbackpack-prod",
+  "private_key_id": "058aaf3cad60ae0f97ea428a0f2d9b9fa6c3190c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIGHAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBG0wawIBAQQgc509J6i0NQgCxMSI\n6asl/PkQXi+vdWTo40eR+MunylihRANCAARvZx1xa4VJPM5DSLVIyojs5TGeuPpf\no8JBNF85aLoh4QXJ+eyussoUvVURKhR+bRCrbC/AiEh8QRGoP8OAqYDZ\n-----END PRIVATE KEY-----\n",
+  "client_email": "etl-runner@timberbackpack-prod.iam.gserviceaccount.com",
+  "client_id": "790298780728635310712",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token"
+}
